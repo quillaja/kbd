@@ -1,4 +1,4 @@
-// package kbd is a simple package to allow one to test key state:
+// Package kbd is a simple package to allow one to test key state:
 // press or not-pressed. It works only for Linux systems and requires that
 // executables using it are started with `sudo` privledges. This is because
 // keyboard events are read directly from the device file in `/dev/input/`.
@@ -28,7 +28,6 @@
 //    		}
 //    }
 //    fmt.Println("Error:", kb.Err())
-
 package kbd
 
 import (
